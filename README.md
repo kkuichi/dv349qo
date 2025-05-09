@@ -22,9 +22,7 @@ Projekt je vytvorený ako súčasť bakalárskej práce a slúži ako základ pr
 - Vizualizovať výsledky pre **klinickú interpretáciu** (matíce zámien, význam príznakov).
 
 ---
-## Štruktúra projektu
 
----
 ## Ukážka výstupu
 Projekt generuje rôzne vizualizácie a hodnotenia modelov, ktoré sú použiteľné pre medicínsku interpretáciu:
 
