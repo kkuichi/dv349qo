@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <title>Výsledok predikcie</title>
+</head>
+<body>
+  <h2>Výsledok rozhodovacieho procesu:</h2>
+  <h1>{{ result }}</h1>
+
+  {% if confidence != "–" %}
+  {% endif %}
+<p><strong>Miera spoľahlivosti predikcie:</strong> {{ confidence }} %</p>
+
+  <hr>
+  <h3>Rekapitulácia odpovedí:</h3>
+  <ul>
+    {% for odp in answers %}
+      <li><strong>{{ odp.question }}</strong><br>→ {{ odp.odpoved }}</li>
+    {% endfor %}
+  </ul>
+
+  <br><a href="/">Spustiť znova</a>
+</body>
+</html>

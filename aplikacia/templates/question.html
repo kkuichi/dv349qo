@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <title>HUT Rozhodovací strom</title>
+</head>
+<body>
+  <h2>{{ question }}</h2>
+  <form method="post">
+    {% if type == "numeric" %}
+      <input type="number" name="numeric_answer" step="any" required>
+      <button type="submit">Potvrdiť</button>
+    {% else %}
+      <button name="answer" value="1">Áno</button>
+      <button name="answer" value="0">Nie</button>
+    {% endif %}
+  </form>
+</body>
+</html>
