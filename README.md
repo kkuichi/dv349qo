@@ -29,6 +29,7 @@ Projekt generuje rôzne vizualizácie a hodnotenia modelov, ktoré sú použite�
 - Confusion matrix pre binárnu aj viactriednu klasifikáciu
 
 - Dôležitosť príznakov z modelov (Random Forest, XGBoost)
+- Tento projekt okrem analytických výstupov obsahuje aj webovú aplikáciu pre lekárov( https://app2-7o0b.onrender.com/ )
 
 - Zhrnutie metrík modelov: Accuracy, Precision, Recall, F1 Score, AUC
 
