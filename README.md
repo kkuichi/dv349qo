@@ -34,5 +34,16 @@ Projekt generuje rôzne vizualizácie a hodnotenia modelov, ktoré sú použite�
 - Zhrnutie metrík modelov: Accuracy, Precision, Recall, F1 Score, AUC
 
 > Tento projekt môže slúžiť ako nástroj na podporu diagnostiky synkopy v klinickej praxi, ako aj ako podklad pre ďalší výskum v oblasti medicínskeho strojového učenia.
-
-
+---
+## Použité knižnice
+Práca bola naprogramovaná v jazyku Python(Python 3.9.21)
+- numpy==1.25.2
+- pandas==2.2.3
+- scikit-learn==1.0.2
+- scipy==1.9.3
+- xgboost==1.7.6
+- catboost==1.2.3
+- imbalanced-learn==0.12.0
+- seaborn==0.13.2
+- matplotlib==3.9.2
+- Flask==3.1.0
