@@ -1,4 +1,4 @@
-# Predikcia prítomnosti a typu synkopy pomocou strojového učenia
+# Analýza vzorky dát o pacientoch u ktorých sa vyskytla krátkodobá strata vedomia
 
 ## Úvod
 
