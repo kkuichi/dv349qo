@@ -146,7 +146,7 @@ for clf in dt_models:
 best_idx = np.argmax([s['f1'] for s in all_scores])
 best_pruned_dt = dt_models[best_idx]
 
-print(f"\n🎯 Najlepší model po CCP pruning:")
+print(f"\n Najlepší model po CCP pruning:")
 print(f"ccp_alpha = {ccp_alphas[best_idx]:.5f}")
 print(f"Accuracy: {all_scores[best_idx]['accuracy']:.3f}")
 print(f"Precision: {all_scores[best_idx]['precision']:.3f}")
